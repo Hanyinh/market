@@ -1,6 +1,6 @@
 package com.hanyinh.marketweb.controller;
 
-import com.hanyinh.marketweb.pojo.entity.User;
+import com.hanyinh.marketweb.model.entity.User;
 import com.hanyinh.marketweb.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

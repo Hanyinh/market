@@ -1,4 +1,4 @@
-package com.hanyinh.marketweb.pojo.entity;
+package com.hanyinh.marketweb.model.entity;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

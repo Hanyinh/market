@@ -1,6 +1,6 @@
 package com.hanyinh.marketweb.dao;
 
-import com.hanyinh.marketweb.pojo.entity.User;
+import com.hanyinh.marketweb.model.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

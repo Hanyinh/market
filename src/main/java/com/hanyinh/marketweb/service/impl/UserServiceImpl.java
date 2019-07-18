@@ -1,7 +1,7 @@
 package com.hanyinh.marketweb.service.impl;
 
 import com.hanyinh.marketweb.dao.UserDao;
-import com.hanyinh.marketweb.pojo.entity.User;
+import com.hanyinh.marketweb.model.entity.User;
 import com.hanyinh.marketweb.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.hanyinh.marketweb.service;
 
-import com.hanyinh.marketweb.pojo.entity.User;
+import com.hanyinh.marketweb.model.entity.User;
 
 import java.util.List;
 
