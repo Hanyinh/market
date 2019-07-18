@@ -1,0 +1,21 @@
+# 端口号
+server:
+  port: 8888
+
+spring:
+  # 数据库连接信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/market?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: 123456
+  # 时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss a
+    time-zone: GMT+8
+
+# mybatis
+mybatis:
+  type-aliases-package: com.hanyinh.marketweb.pojo.entity
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
