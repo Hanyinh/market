@@ -1,15 +1,17 @@
-# ¶Ë¿ÚºÅ
+# ç«¯å£å·
 server:
   port: 8888
+  servlet:
+    context-path: /usm
 
 spring:
-  # Êı¾İ¿âÁ¬½ÓĞÅÏ¢
+  # æ•°æ®åº“è¿æ¥ä¿¡æ¯
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/market?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
     username: root
     password: 123456
-  # Ê±¼ä¸ñÊ½
+  # æ—¶é—´æ ¼å¼
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss a
     time-zone: GMT+8
